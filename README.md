@@ -1,0 +1,2 @@
+# Ai-powered-deepfake-detection-system
+With the rise of AI-generated deepfake videos and images,  misinformation and identity fraud have become major global  threats. Deepfake videos can be used for: Misinformation &amp; Fake News, Fraud &amp; Scams,etc..This project detects deepfakes using image processing &amp; AI to  help social media platforms, news agencies, etc to filter manipulated content 
