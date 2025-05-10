@@ -26,7 +26,8 @@ This repository contains:
 - A web front-end (`index.html`, `how_it_works.html`, etc.)
 - Backend logic (`app.py`) for handling detection
 - Custom styling (`styles.css`) for clean UI
-
+  
+---
 ## Features
 
 - Deepfake detection using AI-based classification
@@ -80,19 +81,19 @@ python app.py
 http://127.0.0.1:5000/
 
 Usage
-*Upload an image or video from the main interface.
-*The system will process the media and display whether it is likely real or fake.
-*Users can navigate to:
-*How it Works to understand the detection logic
-*History to see past results
-*Feedback to share their thoughts
+* Upload an image or video from the main interface.
+* The system will process the media and display whether it is likely real or fake.
+* Users can navigate to:
+* How it Works to understand the detection logic
+* History to see past results
+* Feedback to share their thoughts
 
 Future Improvements:
-*Improve model accuracy using additional datasets (e.g., DFDC, Celeb-DF)
-*Add support for video streaming (real-time detection)
-*Display heatmaps to show manipulated areas
-*Implement user authentication for profile-based history
-*Deploy on cloud platforms (e.g., Heroku, AWS)
+* Improve model accuracy using additional datasets (e.g., DFDC, Celeb-DF)
+* Add support for video streaming (real-time detection)
+* Display heatmaps to show manipulated areas
+* user authentication for profile-based history
+* Deploy on cloud platforms (e.g., Heroku, AWS)
 
 License
 This project is open-source and available under the MIT License.
