@@ -100,7 +100,9 @@ This project is open-source and available under the MIT License.
 
 Contact
 Author: Shubham
+
 Email: 10221shubham.s@gmail.com
+
 GitHub: github.com/shubh-2601s
 
 
