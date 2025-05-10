@@ -4,7 +4,7 @@ This project is a deep learning and image processing-based solution to detect AI
 
 This system integrates a web interface with a backend deepfake detection engine to provide a user-friendly platform for users to test media files and receive visual analysis.
 
-## Table of Contents
+# Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -18,7 +18,7 @@ This system integrates a web interface with a backend deepfake detection engine 
 
 ---
 
-## Overview
+# Overview
 
 The system leverages AI models to analyze images or videos and determine whether the media is genuine or synthetically altered. It uses frame analysis and facial behavior inconsistencies, among other indicators, to detect deepfakes.
 
@@ -28,7 +28,7 @@ This repository contains:
 - Custom styling (`styles.css`) for clean UI
   
 ---
-## Features
+# Features
 
 - Deepfake detection using AI-based classification
 - Web interface for uploading media and viewing results
@@ -38,7 +38,7 @@ This repository contains:
 
 ---
 
-## Tech Stack
+# Tech Stack
 
 **Frontend:**
 - HTML5
@@ -53,7 +53,7 @@ This repository contains:
 
 ---
 
-## Project Structure
+# Project Structure
 
 ├── app.py # Flask backend handling detection logic
 ├── index.html # Main landing page
@@ -65,7 +65,8 @@ This repository contains:
 ├── templates/ # (Optional) Flask template directory
 └── README.md # Project documentation
 
-## Installation
+---
+# Installation
 
 1. Clone the repository:
 git clone https://github.com/shubh-2601s/Ai-powered-deepfake-detection-system.git
@@ -80,7 +81,9 @@ python app.py
 4.Open a browser and visit:
 http://127.0.0.1:5000/
 
-Usage
+---
+
+# Usage
 * Upload an image or video from the main interface.
 * The system will process the media and display whether it is likely real or fake.
 * Users can navigate to:
@@ -88,17 +91,22 @@ Usage
 * History to see past results
 * Feedback to share their thoughts
 
-Future Improvements:
+---
+
+# Future Improvements:
 * Improve model accuracy using additional datasets (e.g., DFDC, Celeb-DF)
 * Add support for video streaming (real-time detection)
 * Display heatmaps to show manipulated areas
 * user authentication for profile-based history
 * Deploy on cloud platforms (e.g., Heroku, AWS)
+--- 
 
-License
+# License
 This project is open-source and available under the MIT License.
 
-Contact
+---
+
+# Contact
 Author: Shubham
 
 Email: 10221shubham.s@gmail.com
