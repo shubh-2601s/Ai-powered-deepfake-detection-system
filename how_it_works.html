@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How It Works</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container how-it-works-container mt-5">
+        <h1 class="text-center">How It Works</h1>
+        <p class="text-center">Learn how our deepfake detection system works.</p>
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Overview</h3>
+                <p>Our deepfake detection system uses advanced machine learning algorithms to analyze images and detect whether they have been manipulated. The system is built using a YOLO (You Only Look Once) model, which is a state-of-the-art object detection algorithm.</p>
+                <h3>Steps</h3>
+                <ol>
+                    <li><strong>Upload or Capture Image:</strong> Users can either upload an image from their device or capture an image using their webcam.</li>
+                    <li><strong>Image Processing:</strong> The uploaded or captured image is sent to our server, where it is processed by our deepfake detection model.</li>
+                    <li><strong>Model Inference:</strong> The YOLO model analyzes the image and determines whether it contains any signs of manipulation.</li>
+                    <li><strong>Result Display:</strong> The result of the analysis is displayed to the user, indicating whether the image is likely to be a deepfake.</li>
+                </ol>
+                <h3>Technology</h3>
+                <p>Our system leverages the following technologies:</p>
+                <ul>
+                    <li><strong>Flask:</strong> A lightweight web framework for building the server-side application.</li>
+                    <li><strong>YOLO:</strong> A real-time object detection system that is used to detect manipulations in images.</li>
+                    <li><strong>HTML, CSS, and JavaScript:</strong> Front-end technologies used to build the user interface.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <a href="{{ url_for('index') }}" class="btn btn-secondary">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>

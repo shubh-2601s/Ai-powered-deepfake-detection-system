@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload History</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center text-primary">Upload History</h1>
+        <ul class="list-group mt-3">
+            {% for item in upload_history %}
+                <li class="list-group-item">
+                    <img src="{{ url_for('uploaded_file', filename=item.filename) }}" alt="Uploaded Image" class="img-fluid">
+                    <p>File: {{ item.filename }}, Result: {{ item.result }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+        <div class="text-center mt-3">
+            <a href="{{ url_for('index') }}" class="btn btn-secondary">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
